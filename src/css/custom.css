@@ -804,6 +804,11 @@ div.special_table + table tr td {
 	font-weight: 500;
 }
 
+a.footer__link-item {
+	/* Infima sets `width: max-content` on mobile, so a long label never wraps. */
+	max-width: 100%;
+}
+
 [data-theme="light"] a.footer__link-item {
 	color: #666;
 }
